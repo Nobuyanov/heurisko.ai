@@ -280,3 +280,6 @@
     padding-top: 0.8em;
     padding-bottom: 0.8em;  
 }   
+.txt_container_fix_h{
+    min-height: 150px;
+}
