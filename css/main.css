@@ -1,0 +1,282 @@
+/* Custom fonts */
+@font-face {
+    font-family: 'Geometria Bold';
+    src: url('../fonts/Geometria-Bold.eot');
+    src: url('../fonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Geometria-Bold.woff') format('woff'),
+    url('../fonts/Geometria-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Geometria Regular';
+    src: url('../fonts/Geometria.eot');
+    src: url('../fonts/Geometria.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Geometria.woff') format('woff'),
+    url('../fonts/Geometria.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Navbar */
+.navbar-brand{
+    padding-left: 2em;
+}
+.navbar{ 
+    background:#f4f7fd; 
+}
+.nav-link , .navbar-brand{ 
+    color: #31384b !important; 
+    cursor: pointer; 
+    font-family: 'Geometria Bold';
+}
+.nav-link{ 
+    margin-right: 1em !important;
+}
+.nav-link:hover{ 
+    background: #f4f7fd; 
+    color: #636f8f !important; 
+    font-family: 'Geometria Bold';
+}
+.navbar-collapse{ 
+    justify-content: flex-end;
+}
+.navbar-text{ 
+    color: #a8aeb8 !important; 
+    font-family: 'Geometria Bold'; 
+    text-decoration: none;
+}
+
+/* Lang Selector */
+.lang-selector{ 
+    color: #a8aeb8 !important; 
+    font-family: 'Geometria Bold'; 
+    text-decoration: none;
+}
+.lang-selector:hover{ 
+    color: #797e86 !important; 
+    font-family: 'Geometria Bold'; 
+    text-decoration: none;
+}
+.lang-current{ 
+    color: #1c4ca3; 
+    font-family: 'Geometria Bold'; 
+    text-decoration: none;
+}
+
+/* Header */
+.header{
+    background:#f4f7fd; 
+    background-image: url('../images/baner_img.png') !important;
+    background-position: right;
+    background-repeat: no-repeat;   
+}
+.header-div{
+    min-height: 630px;   
+}
+.header-content h1{
+    color: #31384b !important; 
+    font-family: 'Geometria Bold'; 
+    font-size: 2.8rem;
+}
+.header-content p{
+    color: #31384b !important; 
+    font-family: 'Geometria Regular'; 
+    font-size: 1.3rem; 
+    padding-top: 1.4em; 
+    padding-bottom: 1.4em; 
+    padding-right: 1.4em;}
+.header-content button{
+    color: #f4f7fd !important; 
+    background:#1c4ca3; 
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+    border:0px;
+    border-radius:50px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;  
+}
+.header-content button:hover{
+    color: #f4f7fd !important; 
+    background:#143168; 
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+    border:0px;
+    border-radius:50px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;  
+}
+
+/* About */
+.about-content h1{
+    color: #31384b !important; 
+    font-family: 'Geometria Bold'; 
+    font-size: 2.5rem;
+}
+.about-content p{
+    color: #31384b !important; 
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+    padding-top: 1.4em; 
+    padding-bottom: 1.4em; 
+    padding-right: 1.4em;}
+
+/* How work */
+.how-work-content h1{
+    color: #31384b !important; 
+    font-family: 'Geometria Bold'; 
+    font-size: 2.5rem;
+}
+.how-work-content p{
+    color: #31384b !important; 
+    font-family: 'Geometria Regular'; 
+    font-size: 1.3rem; 
+    padding-top: 0.5em;
+}
+.how-1{
+    min-width: 360px;
+    min-height: 395px;
+    border-radius:40px;
+    background:#fff; 
+    background-image: url('../images/back_1.png') !important;
+    background-position-x: 90%;
+    background-position-Y: 105%;
+    background-repeat: no-repeat;
+}
+.how-1 p{
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+}
+.how-2{
+    min-width: 360px;
+    min-height: 395px;
+    border-radius:40px;
+    background:#fff; 
+    background-image: url('../images/back_2.png') !important;
+    background-position-x: 101%;
+    background-position-Y: 105%;
+    background-repeat: no-repeat;
+}
+.how-2 p{
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+}
+.how-3{
+    min-width: 360px;
+    min-height: 395px;
+    border-radius:40px;
+    background:#fff; 
+    background-image: url('../images/back_3.png') !important;
+    background-position-x: 103%;
+    background-position-Y: 105%;
+    background-repeat: no-repeat;
+}
+.how-3 p{
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+}
+
+/* Social */
+.social-content{
+    background:#f1f5fc; 
+    min-height: 480px;
+}
+.social-content h1{
+    color: #31384b !important; 
+    font-family: 'Geometria Bold'; 
+    font-size: 2.5rem;
+}
+.social-content p{
+    color: #31384b !important; 
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+}
+
+/* Examples */
+.examples-content{
+    background:#1c4ca3; 
+    min-height: 480px;
+}
+.examples-content h1{
+    color: #f4f7fd !important; 
+    font-family: 'Geometria Bold'; 
+    font-size: 2.5rem;
+}
+.examples-content p{
+    color: #f4f7fd !important; 
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+}
+
+/* Advantages */
+.advantages-img{
+    min-height:200px;
+}
+.advantages h4{
+    color: #31384b !important; 
+    font-family: 'Geometria Bold'; 
+    font-size: 1.1rem;
+}
+.advantages p{
+    color: #31384b !important; 
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem;
+}
+
+/* Offers */
+.offer-inner{
+    min-height: 600px;
+    padding: 0 12px 15px 12px; 
+    border-radius:40px;
+    background:#fff; 
+}
+.offers h2{
+    color: #1c4ca3 !important; 
+    font-family: 'Geometria Bold'; 
+    font-size: 2rem;
+}
+.offers h3{
+    color: #31384b !important; 
+    font-family: 'Geometria Bold'; 
+    font-size: 1.6rem;
+}
+.offers p{
+    color: #31384b !important; 
+    font-family: 'Geometria Regular'; 
+    font-size: 0.9rem;
+}
+.offers li{
+    color: #31384b !important; 
+    font-family: 'Geometria Regular'; 
+    font-size: 0.9rem;
+}
+.offers button{
+    display: block;
+    color: #f4f7fd !important; 
+    background:#1c4ca3; 
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+    border:0px;
+    border-radius:50px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;  
+}
+.offers button:hover{
+    display: block;
+    color: #f4f7fd !important; 
+    background:#143168; 
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+    border:0px;
+    border-radius:50px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;  
+}
