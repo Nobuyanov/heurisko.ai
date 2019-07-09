@@ -302,7 +302,7 @@
 }
 .reviews-1{
     min-width: 360px;
-    min-height: 395px;
+    min-height:450px;
     border-radius:40px;
     background:#fff;
 }
@@ -312,7 +312,7 @@
 }
 .reviews-2{
     min-width: 360px;
-    min-height: 395px;
+    min-height: 450px;
     border-radius:40px;
     background:#fff;
 }
@@ -322,7 +322,7 @@
 }
 .reviews-3{
     min-width: 360px;
-    min-height: 395px;
+    min-height: 450px;
     border-radius:40px;
     background:#fff; 
 }
@@ -336,4 +336,14 @@
     background:#a7c2f4; 
     border-radius:60px;
     margin-top: -3em;
+}
+.p-blue{
+    font-family: 'Geometria Regular'; 
+    font-size: 1rem; 
+    color: #1c4ca3
+}
+.client-name{
+    color: #31384b !important; 
+    font-family: 'Geometria Bold'  !important; 
+    font-size: 1.5rem  !important;
 }
